@@ -20,8 +20,10 @@
         <activity
             android:name=".OrderActivity"
             android:label="@string/create_oder"
-            android:parentActivityName=".MainActivity">
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".PizzaDetailActivity"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
